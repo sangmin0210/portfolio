@@ -86,4 +86,8 @@ header {
     background-color: #9EFF71 ;
     text-shadow: 0 0 3px rgba(0,0,0,.5);
 }
+.buttons {
+    text-align: center;
+    column-gap: 3rem;
+}
 }
