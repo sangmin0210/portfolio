@@ -41,11 +41,12 @@ header {
     font-size: 1.250rem;
     display: flex;
     justify-content: center; /* 컨텐츠 정렬 :  여백을 포함해서 */
+    box-shadow: 0 0 10px 0 darkslateblue;
 }
 .menu a {
     color: white;
     text-transform: uppercase;
-    margin: 0 1.5rem; /* 바깥여백 : 좌우 만 기본값 1배 */
+    margin: 0 2rem; /* 바깥여백 : 좌우 만 기본값 1배 */
 }
 .profile {
     margin: 1.5rem 0;
@@ -55,7 +56,7 @@ header {
 }
 .contents p {
     font-size: 1.625rem;
-    margin-left: 15%; /*바깥여백 : 외쪽만 20%나머지 0*/
+    text-align: center;
 }
 .keywords{
     display: flex;
@@ -68,6 +69,7 @@ header {
     color: #ffffff;
     border-radius: 5px; /* 테두리-변경 : 10픽셀 만큼 가장자리 동그랗게 깍기*/
     box-shadow: 0 0 5px 0 rgba(0,0,0,.5); /* 박스-그림자 : x y spread size color*/ /*rgba 순서 R G B 투명도 0~9까지만 */
+    font-size: 1.3rem;
     
 }
 .uxui {
@@ -88,6 +90,10 @@ header {
 }
 .buttons {
     text-align: center;
-    column-gap: 3rem;
+    
+    
+}
+.buttons img {
+    transform: scale(0.9);
 }
 }
