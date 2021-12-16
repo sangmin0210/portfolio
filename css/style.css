@@ -47,7 +47,43 @@ header {
     text-transform: uppercase;
     margin: 0 1.5rem; /* 바깥여백 : 좌우 만 기본값 1배 */
 }
+.profile {
+    margin: 1.5rem 0;
+}
 .profile img {
     max-width: 100%; /* 최대 폭: 가로 100% */
+}
+.contents p {
+    font-size: 1.625rem;
+    margin-left: 15%; /*바깥여백 : 외쪽만 20%나머지 0*/
+}
+.keywords{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    column-gap: 1rem; /*좌우 간격 떨어트리기*/
+}
+.keywords span{
+    padding: 10px 15px; /* 안 여백 : 상하 10픽셀, 좌우 15픽셀 적용 */
+    color: #ffffff;
+    border-radius: 5px; /* 테두리-변경 : 10픽셀 만큼 가장자리 동그랗게 깍기*/
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5); /* 박스-그림자 : x y spread size color*/ /*rgba 순서 R G B 투명도 0~9까지만 */
+    
+}
+.uxui {
+    background-color: #FF9494 ; 
+    text-shadow: 0 0 3px rgba(0,0,0,.5); /*글자-그림자 : x y size color */
+}
+.web {
+    background-color: #52ACFF ;
+    text-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+.Design {
+    background-color: #7BF7FF ;
+    text-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+.movie {
+    background-color: #9EFF71 ;
+    text-shadow: 0 0 3px rgba(0,0,0,.5);
 }
 }
